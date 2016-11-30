@@ -48,7 +48,7 @@ elixir(function (mix) {
     .sass('./angular/**/*.scss', 'public/css')
     .version(assets)
     .browserSync({
-      proxy: 'www.zdmc181.dev:80'
+      proxy: 'www.qstock.org:80'
     })
     .karma({
       jsDir: karmaJsDir
