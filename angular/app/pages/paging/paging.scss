@@ -1,0 +1,84 @@
+.content-page {
+  background-color: #f1f1f1;
+  width: 100%;
+  min-height: 1500px;
+}
+
+.page-title-red {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: red;
+}
+
+.page-title-red > span {
+  border-bottom: 2px solid red;
+}
+
+.content-page-list {
+  background-color: #f1f1f1;
+  width: 100%;
+  min-height: 1000px;
+}
+
+.content-page-one {
+  background-color: #f1f1f1;
+  width: 100%;
+  min-height: 1500px;
+}
+
+/* 页面公共css */
+
+.shuli-div-top {
+  padding-top: 150px;
+}
+.shuli{
+  margin: 0 auto;
+  width: 20px;
+  line-height: 24px;
+  //border: 1px solid #333;
+}
+
+.fangkuai-1 {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+
+.fangkuai-2 {
+  width: 25px;
+  height: 25px;
+  background-color: black;
+}
+
+.left-line-list{
+  border-left: 3px solid #333;
+  min-height: 1000px;
+}
+
+.left-line-one{
+  border-left: 3px solid #333;
+  min-height: 1500px;
+}
+
+.list-group-item-custom {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  //background-color: #fff;
+  border-bottom: 2px dashed grey;
+}
+
+.list-group-item-left{
+  color: black;
+}
+
+.list-group-item-right{
+  color: grey;
+}
+.breadcrumb-custom {
+
+  background-color: transparent;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}

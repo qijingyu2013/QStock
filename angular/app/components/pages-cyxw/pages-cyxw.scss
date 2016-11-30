@@ -1,0 +1,29 @@
+.content-cyxw {
+  background-color: white;
+  width: 100%;
+  height: 420px;
+}
+
+.ul-cyxw {
+  padding-top: 45px;
+}
+
+.ul-cyxw > li {
+  content: "●";
+  color: red;
+}
+
+.ul-cyxw > li > p {
+  color: black;
+}
+
+.p-indent-black {
+  color: black;
+  font-size: medium;
+  text-indent: 2em;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  line-height: 35px;
+}

@@ -1,0 +1,16 @@
+<div class="content-aflssyb">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div class="row">
+      <h3 class="h-title title-gray"><span>阿凡</span>连售事业部</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-3" ng-repeat="row in directory"  ng-mouseenter="selectRestaurant($index)" ng-mouseleave="noSelectRestaurant($index)" ng-class="{true:'imgActive',false:'imgInActive' }[$index==selectedRow]">
+        <a ui-sref='page.aboutaflssyb'>
+        <img src="{{row.imgSrc}}" class="img-responsive img-custom-3 {{inActive}}">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+</div>

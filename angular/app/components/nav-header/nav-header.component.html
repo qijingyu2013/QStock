@@ -1,0 +1,14 @@
+<header class="main-nav-header">
+  <uib-carousel active="active"
+                interval="myInterval"
+                no-wrap="noWrapSlides"
+                class="bouncy-slide-left">
+  <uib-slide ng-repeat="row in directory" active="row.active" index="row.id" >
+    <img ng-src="{{row.imgSrc}}" style="margin:auto;" class="{{ row.imgCls }}">
+  </uib-slide>
+</uib-carousel>
+  <!--<div class="shadeDiv"></div>-->
+  <!---->
+</header>
+<nav-bar></nav-bar>
+<!--<div class="content-header-img"></div>-->

@@ -1,0 +1,45 @@
+<div class="content-cdmc">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div class="row">
+      <h1 class="h-title-w"><strong><span>COLLECTION</span> OF TEA</strong>
+        <br><strong>藏典茗茶</strong>
+      </h1>
+    </div>
+    <div class="row">
+
+      <uib-carousel active="active"
+                    interval="myInterval"
+                    no-wrap="noWrapSlides"
+                    no-transition="noTransition"
+                    no-pause="noPause"
+                    class="carousel-hyxw bouncy-slide-left"
+                    current-slide="currentSlide"
+                    forward="forward"
+                    id="carousel-hyxw">
+        <uib-slide ng-repeat="row in directory track by row.id" index="row.id" ng-animate="true">
+          <div class="row">
+            <div class="col-xs-8 col-xs-push-2">
+              <div class="col-xs-4 " ng-repeat="imgRow in row.imgArr">
+                <img class="img-responsive img-custom-list center-block" ng-src="{{imgRow.imgSrc}}" >
+                <div class="row">
+                  <p class="carousel-p-center">{{imgRow.text}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </uib-slide>
+      </uib-carousel>
+
+
+
+
+      <!--<uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides" no-transition="noTransition" class="carousel-fade carousel slide">-->
+        <!--<uib-slide ng-repeat="row in directory" active="row.active" index="row.id" >-->
+          <!--<img ng-src="{{row.imgSrc}}" style="margin:auto;">-->
+        <!--</uib-slide>-->
+      <!--</uib-carousel>-->
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+</div>

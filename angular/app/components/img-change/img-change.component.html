@@ -1,0 +1,30 @@
+<div class="content-ldgh">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <div class="row">
+      <h3 class="h-title title-gray"><span>领导</span>关怀</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-md-6">
+            <p class="p-indent-black">{{imgTitle}}</p>
+          </div>
+          <div class="col-md-6">
+            <img src="{{imgSrc}}" class="img-responsive">
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="col-md-4">
+        <div class="col-md-6" ng-repeat="row in directory" ng-mouseenter="selectImage($index)" ng-click="selectImage($index)">
+          <img src="{{row.imgSrc}}" class="img-responsive">
+          <input type="hidden" value="{{row.imgTitle}}">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-2"></div>
+</div>
